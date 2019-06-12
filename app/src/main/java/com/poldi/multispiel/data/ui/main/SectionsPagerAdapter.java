@@ -20,7 +20,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     private static final GameFragmentModelFragment ownGames = new GameFragmentModelFragment();
     private static final FriendsFragmentModelFragment ownFriends = new FriendsFragmentModelFragment();
-    private static final FriendsFragmentModelFragment ownRanglist = new FriendsFragmentModelFragment();
+    private static final RanglisteFragmentModel ownRanglist = new RanglisteFragmentModel();
 
     @StringRes
     private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_3};
