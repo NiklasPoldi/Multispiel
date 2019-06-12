@@ -7,7 +7,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import de.paulklubert.ms.R;
+import com.poldi.multispiel.R;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
