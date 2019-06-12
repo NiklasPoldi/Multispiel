@@ -104,6 +104,7 @@
     <string name="benutzer">Benutzername</string>
     <string name="passwort">Passwort</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_1">Spiele</string>
+    <string name="tab_text_2">Freunde</string>
+    <string name="tab_text_3">Rangliste</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.poldi.multispiel;
 
+/* AFFENANUS */
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -84,6 +85,7 @@ public class LoginActivity extends AppCompatActivity {
 
         Intent startNewActivity = new Intent(this, MainActivity.class);
         startActivity(startNewActivity);
+        finish();
     }
 
     private void hideNavigationBar() {
