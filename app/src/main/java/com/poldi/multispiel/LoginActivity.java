@@ -1,6 +1,6 @@
 package com.poldi.multispiel;
 
-/* AFFENANUS */
+/* AFFENANUS PENISARSCHLOCHFICKER */
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
