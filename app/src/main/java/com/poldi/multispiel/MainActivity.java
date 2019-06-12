@@ -1,5 +1,6 @@
 package com.poldi.multispiel;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -17,6 +18,7 @@ import com.poldi.multispiel.data.ui.main.SectionsPagerAdapter;
 public class MainActivity extends AppCompatActivity {
 
     private Toolbar mTopToolbar;
+    private final MainActivity root = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +38,11 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent startNewActivity = new Intent(root, NewGameActivity.class);
+                startActivity(startNewActivity);
+
+                /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
             }
         });
     }
@@ -59,8 +64,12 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_einstellungen) {
             View v = findViewById(R.id.mainView);
-            Snackbar.make(v, "Hallo I bims ausgewählt", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show();
+
+            Intent startNewActivity = new Intent(root, GameActivity.class);
+            startActivity(startNewActivity);
+
+            /*Snackbar.make(v, "Hallo I bims ausgewählt", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();*/
             return true;
         }
 

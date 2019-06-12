@@ -107,4 +107,10 @@
     <string name="tab_text_1">Spiele</string>
     <string name="tab_text_2">Freunde</string>
     <string name="tab_text_3">Rangliste</string>
+
+    <string name="title_activity_game">GameActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="search_online">Online</string>
 </resources>
