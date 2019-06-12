@@ -1,4 +1,4 @@
-package de.paulklubert.ms.data.ui.main;
+package com.poldi.multispiel.data.ui.main;
 
 import android.arch.core.util.Function;
 import android.arch.lifecycle.LiveData;

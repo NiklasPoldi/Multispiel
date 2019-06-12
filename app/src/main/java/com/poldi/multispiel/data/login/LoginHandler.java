@@ -1,4 +1,4 @@
-package de.paulklubert.ms.data.login;
+package com.poldi.multispiel.data.login;
 
 import java.io.BufferedReader;
 import java.io.IOException;

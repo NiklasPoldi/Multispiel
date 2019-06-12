@@ -1,4 +1,4 @@
-package de.paulklubert.ms;
+package com.poldi.multispiel;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 
-import de.paulklubert.ms.data.login.LoginHandler;
+import com.poldi.multispiel.data.login.LoginHandler;
 
 public class ScrollingActivity extends AppCompatActivity {
 

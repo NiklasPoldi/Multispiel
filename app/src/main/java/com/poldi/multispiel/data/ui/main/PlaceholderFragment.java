@@ -1,5 +1,6 @@
-package de.paulklubert.ms.data.ui.main;
+package com.poldi.multispiel.data.ui.main;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,9 +10,8 @@ import android.support.annotation.Nullable;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 
-import de.paulklubert.ms.R;
+import com.poldi.multispiel.R;
 
 /**
  * A placeholder fragment containing a simple view.

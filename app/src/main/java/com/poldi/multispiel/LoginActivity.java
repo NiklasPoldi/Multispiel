@@ -1,4 +1,4 @@
-package de.paulklubert.ms;
+package com.poldi.multispiel;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import de.paulklubert.ms.data.login.LoginHandler;
+import com.poldi.multispiel.data.login.LoginHandler;
 
 public class LoginActivity extends AppCompatActivity {
 
