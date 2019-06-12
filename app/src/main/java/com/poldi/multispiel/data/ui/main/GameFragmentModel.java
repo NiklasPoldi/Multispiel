@@ -3,6 +3,7 @@ package com.poldi.multispiel.data.ui.main;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.poldi.multispiel.R;
 import com.poldi.multispiel.data.ui.main.ui.gamefragmentmodel.GameFragmentModelFragment;
 
 public class GameFragmentModel extends AppCompatActivity {

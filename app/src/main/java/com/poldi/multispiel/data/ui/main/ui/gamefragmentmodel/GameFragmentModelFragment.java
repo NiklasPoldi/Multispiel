@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.poldi.multispiel.data.ui.main.R;
+import com.poldi.multispiel.R;
 
 public class GameFragmentModelFragment extends Fragment {
 

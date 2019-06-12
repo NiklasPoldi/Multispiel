@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.poldi.multispiel.R;
+import com.poldi.multispiel.data.ui.main.ui.gamefragmentmodel.GameFragmentModelFragment;
 import com.poldi.multispiel.data.ui.main.ui.gamefragmentmodel.GameFragmentModelViewModel;
 
 /**
@@ -16,7 +17,7 @@ import com.poldi.multispiel.data.ui.main.ui.gamefragmentmodel.GameFragmentModelV
  */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-    private static final GameFragmentModelViewModel ownGames = new GameFragmentModelViewModel();
+    private static final GameFragmentModelFragment ownGames = new GameFragmentModelFragment();
 
     @StringRes
     private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_3};
@@ -34,7 +35,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 0:
                 return ownGames;
-                break;
         }
         return PlaceholderFragment.newInstance(position + 1);
     }
